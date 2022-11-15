@@ -43,6 +43,7 @@ const utentiTeam = [
 ];
 
 const rowEl = document.querySelector(".row");
+let divEl;
 
 
 
@@ -56,3 +57,5 @@ for (let i = 0; i < utentiTeam.length; i++) {
     console.log("\n\n");
 
 }
+
+generateCard(rowEl, utentiTeam);
