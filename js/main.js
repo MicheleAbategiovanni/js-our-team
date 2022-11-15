@@ -42,6 +42,16 @@ const utentiTeam = [
     },
 ];
 
+const imgUser = [
+
+    "img/wayne-barnett-founder-ceo.jpg",
+    "img/angela-caroll-chief-editor.jpg",
+    "img/walter-gordon-office-manager.jpg",
+    "img/angela-lopez-social-media-manager.jpg",
+    "img/scott-estrada-developer.jpg",
+    "img/barbara-ramos-graphic-designer.jpg",
+];
+
 const rowEl = document.querySelector(".row");
 let divEl;
 
@@ -58,4 +68,4 @@ for (let i = 0; i < utentiTeam.length; i++) {
 
 }
 
-generateCard(rowEl, utentiTeam);
+generateCard(rowEl, utentiTeam, imgUser);
